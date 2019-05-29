@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(80, 80, 80);
+}
+
+.ruv {
+  width: 950px;
+  height: 95px;
+  border-radius: 7px;
+  margin-top: 40px;
+  background-color: rgb(144, 144, 144);
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: 10px 10px 5px black;
+}
+
+.logo {
+  width: 250px;
+  margin-left: 20px;
+}
+
+.loupe{
+  width:18%;
+  height: 100%;
+  z-index: 2;
+  margin-left:50%;
+  margin-top: 15px;
+}
+
+.close img{
+  width: 15px;
+  height: 15px;
+  display: block;
+}
+
+.reload_img{
+  margin-top: 10px;
+}
+
+.close_img{
+  margin-top: 45px;
+}
+
+.container{
+  width: 950px;
+  margin: 0 auto;
+}
+
+*.menu{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav_menu{
+  width: 80px;
+  height: 250px;
+  background-color: rgb(144, 144, 144);
+  border-radius: 7px;
+  margin: 30px 20px;
+  box-shadow: 10px 10px 5px black;
+}
+
+.nav_menu img{
+  display:block;
+  width:40px;
+  height: 40px;
+  margin: auto;
+  margin-top: 7px;
+}
+
+.nav_menu img:hover{
+  border: 3px solid red;
+  border-radius: 7px;
+}
+
+.midel{
+  width: 700px;
+  height: 350px;
+  background-color: rgb(144, 144, 144);
+  border-radius: 7px;
+  display: block;
+  box-shadow: 10px 10px 5px black;
+  margin-top: 30px;
+}
+
+.cluster{
+  width:99%;
+  display:block;
+  margin:auto;
+  margin-top: 0.5%;
+  z-index:2;
+  height:98%;
+  border-radius: 7px;
+}
+
+.ikea{
+  width:10%;
+  height: 43px;
+  float: right;
+  margin-top: -22%;
+  margin-right: 57%;
+  position: relative;
+}
+.apple{
+  width:20%;
+  height: 43px;
+  float: right;
+  margin-top: -22%;
+  margin-right: 0%;
+  position: relative;
+}
+
+.green{
+  display:inline-block;
+  background-color: rgb(140, 253, 142);
+  width:300px;
+  height:30px;
+  z-index: 4;
+  margin-top:-3%;
+  margin-left: 11%;
+  box-shadow: 10px 10px 5px black;
+  border-radius: 10px;
+  padding:1%;
+  padding-bottom: 5%;
+}
+
+p{
+  font-size: 0.8vw;
+  margin:0;
+  font-family: Verdana;
+}
+#big{
+  font-size: 2vw;
+  font-family: Georgia;
+}
+#italic{
+  font-style: italic;
+}
+#ordinateur{
+  text-shadow:6px 6px 5.5px red;
+}
+#repondre{
+  background-color: rgb(214, 214, 214);
+  border-color: rgb(80, 80, 80);
+  border: 1px solid;
+  border-style:none;
+  height: 10%;
+  vertical-align: center;
+  display:inline-block;
+  width:20%;
+  font-size: 0.8vw;
+}
+#formulaire{
+  width:65%;
+  height:10%;
+  display:inline-block;
+  margin-top: 1%;
+  font-size: 0.8vw;
+}
